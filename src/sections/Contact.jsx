@@ -96,23 +96,23 @@ export const Contact = () => {
       <div className="container mx-auto px-6 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
+          <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase reveal">
             Get In Touch
           </span>
-          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
+          <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 reveal animation-delay-100 text-secondary-foreground">
             Let's build{" "}
             <span className="font-serif italic font-normal text-white">
               something great.
             </span>
           </h2>
-          <p className="text-muted-foreground animate-fade-in animation-delay-200">
+          <p className="text-muted-foreground reveal animation-delay-200">
             Have a project in mind? I'd love to hear about it. Send me a message
             and let's discuss how we can work together.
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
-          <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
+          <div className="glass p-8 rounded-3xl border border-primary/30 reveal animation-delay-300">
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
                 <label
@@ -209,7 +209,7 @@ export const Contact = () => {
           </div>
 
           {/* Contact Info */}
-          <div className="space-y-6 animate-fade-in animation-delay-400">
+          <div className="space-y-6 reveal animation-delay-400">
             <div className="glass rounded-3xl p-8">
               <h3 className="text-xl font-semibold mb-6">
                 Contact Information

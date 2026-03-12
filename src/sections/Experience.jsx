@@ -50,13 +50,13 @@ export const Experience = () => {
         <div className="max-w-3xl mb-16">
           <span
             className="text-secondary-foreground text-sm
-           font-medium tracking-wider uppercase animate-fade-in"
+           font-medium tracking-wider uppercase reveal"
           >
             Career Journey
           </span>
           <h2
             className="text-4xl md:text-5xl font-bold
-           mt-4 mb-6 animate-fade-in animation-delay-100
+           mt-4 mb-6 reveal animation-delay-100
             text-secondary-foreground"
           >
             Experience that{" "}
@@ -68,7 +68,7 @@ export const Experience = () => {
 
           <p
             className="text-muted-foreground
-           animate-fade-in animation-delay-200"
+           reveal animation-delay-200"
           >
             A timeline of my education and key achievements in full-stack development and machine learning.
           </p>
@@ -83,7 +83,7 @@ export const Experience = () => {
             {experiences.map((exp, idx) => (
               <div
                 key={idx}
-                className="relative grid md:grid-cols-2 gap-8 animate-fade-in"
+                className="relative grid md:grid-cols-2 gap-8 reveal"
                 style={{ animationDelay: `${(idx + 1) * 150}ms` }}
               >
                 {/* Timeline Dot */}
