@@ -80,7 +80,7 @@ export const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Text Content */}
           <div className="space-y-8">
-            <div className="reveal">
+            <div className="reveal reveal-pop">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
                 Full-Stack Development | Machine Learning
@@ -89,7 +89,7 @@ export const Hero = () => {
 
             {/* Headline */}
             <div className="space-y-4">
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight reveal animation-delay-100">
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight reveal reveal-up animation-delay-100">
                 Turning <span className="text-primary glow-text">data</span>
                 <br />
                 into insights with
@@ -98,7 +98,7 @@ export const Hero = () => {
                   precision.
                 </span>
               </h1>
-              <p className="text-lg text-muted-foreground max-w-lg reveal animation-delay-200">
+              <p className="text-lg text-muted-foreground max-w-lg reveal reveal-up animation-delay-200">
                 Hi, I'm Rytham Maalpani - a B.Tech CSE student building
                 full-stack applications and machine learning pipelines. I enjoy
                 shipping practical projects with clean APIs, strong fundamentals,
@@ -107,7 +107,7 @@ export const Hero = () => {
             </div>
 
             {/* CTAs */}
-            <div className="flex flex-wrap gap-4 reveal animation-delay-300">
+            <div className="flex flex-wrap gap-4 reveal reveal-up animation-delay-300">
               <Button
                 size="lg"
                 onClick={() =>
@@ -125,7 +125,7 @@ export const Hero = () => {
             </div>
 
             {/* Social Links */}
-            <div className="flex items-center gap-4 reveal animation-delay-400">
+            <div className="flex items-center gap-4 reveal reveal-left animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
                 { icon: Github, href: "https://github.com/rytham44" },
@@ -146,7 +146,7 @@ export const Hero = () => {
             </div>
           </div>
           {/* Right Column - Profile Image */}
-          <div className="relatice reveal animation-delay-300">
+          <div className="relatice reveal reveal-zoom animation-delay-300">
             {/* Profile Image */}
             <div className="relative max-w-md mx-auto">
               <div
@@ -184,7 +184,7 @@ export const Hero = () => {
         </div>
 
         {/* Skills Section */}
-        <div className="mt-20 reveal animation-delay-600">
+        <div className="mt-20 reveal reveal-up animation-delay-600">
           <p className="text-sm text-muted-foreground mb-6 text-center">
             Technologies I work with
           </p>

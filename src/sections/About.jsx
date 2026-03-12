@@ -34,13 +34,13 @@ export const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column */}
           <div className="space-y-8">
-            <div className="reveal">
+            <div className="reveal reveal-left">
               <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase">
                 About Me
               </span>
             </div>
 
-            <h2 className="text-4xl md:text-5xl font-bold leading-tight reveal animation-delay-100 text-secondary-foreground">
+            <h2 className="text-4xl md:text-5xl font-bold leading-tight reveal reveal-up animation-delay-100 text-secondary-foreground">
               Building the future,
               <span className="font-serif italic font-normal text-white">
                 {" "}
@@ -48,7 +48,7 @@ export const About = () => {
               </span>
             </h2>
 
-            <div className="space-y-4 text-muted-foreground reveal animation-delay-200">
+            <div className="space-y-4 text-muted-foreground reveal reveal-up animation-delay-200">
               <p>
                 I'm a Computer Science undergraduate at Graphic Era Deemed to be
                 University (B.Tech, 2023-2027) with a focus on Data Science and
@@ -65,7 +65,7 @@ export const About = () => {
               </p>
             </div>
 
-            <div className="glass rounded-2xl p-6 glow-border reveal animation-delay-300">
+            <div className="glass rounded-2xl p-6 glow-border reveal reveal-zoom animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
                 "I like building end-to-end ML projects that are not just
                 accurate, but usable: fast, explainable, and easy to iterate on."
@@ -78,7 +78,7 @@ export const About = () => {
             {highlights.map((item, idx) => (
               <div
                 key={idx}
-                className="glass p-6 rounded-2xl reveal"
+                className="glass p-6 rounded-2xl reveal reveal-up"
                 style={{ animationDelay: `${(idx + 1) * 100}ms` }}
               >
                 <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-4 hover:bg-primary/20">
