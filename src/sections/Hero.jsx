@@ -4,7 +4,6 @@ import {
   ChevronDown,
   Github,
   Linkedin,
-  Twitter,
   Download,
 } from "lucide-react";
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
@@ -128,12 +127,12 @@ export const Hero = () => {
             <div className="flex items-center gap-4 reveal reveal-left animation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me: </span>
               {[
-                { icon: Github, href: "https://github.com/rytham44" },
+                { icon: Github, href: "https://github.com/V-Rytham" },
                 {
                   icon: Linkedin,
                   href: "https://www.linkedin.com/in/rytham-maalpani-449b35265",
                 },
-                { icon: Twitter, href: "https://leetcode.com/u/Rytham44/" },
+                
               ].map((social, idx) => (
                 <a
                   key={idx}
