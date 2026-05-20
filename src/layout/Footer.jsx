@@ -1,13 +1,13 @@
-import { Github, Linkedin, Twitter, Heart } from "lucide-react";
+import { Github, Linkedin, Heart } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com/rytham44", label: "GitHub" },
+  { icon: Github, href: "https://github.com/V-Rytham", label: "GitHub" },
   {
     icon: Linkedin,
     href: "https://www.linkedin.com/in/rytham-maalpani-449b35265",
     label: "LinkedIn",
   },
-  { icon: Twitter, href: "https://leetcode.com/u/Rytham44/", label: "Twitter" },
+  
 ];
 
 const footerLinks = [

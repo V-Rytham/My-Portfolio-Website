@@ -50,25 +50,19 @@ export const About = () => {
 
             <div className="space-y-4 text-muted-foreground reveal reveal-up animation-delay-200">
               <p>
-                I'm a Computer Science undergraduate at Graphic Era Deemed to be
-                University (B.Tech, 2023-2027) with a focus on Data Science and
-                Machine Learning. I enjoy building practical projects that turn
-                messy real-world data into useful, product-ready experiences.
+                I'm a B.Tech Computer Science student at Graphic Era University (2023-2027), focused on full-stack development, backend systems, and practical AI integrations.
               </p>
               <p>
-                My work spans full-stack development (React, Node.js/Express, MongoDB)
-                and machine learning projects using Python with XGBoost and TensorFlow.
+                I build MERN applications with secure authentication, scalable API design, vector retrieval workflows, and polished user experiences.
               </p>
               <p>
-                I also enjoy competitive problem solving (800+ DSA problems across platforms, peak rating 1900) and applying a strong math
-                foundation to improve model quality and evaluation.
+                I also enjoy competitive programming (800+ problems solved, LeetCode rating 1900, Codeforces Specialist) and applying strong CS fundamentals to ship reliable products faster.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border reveal reveal-zoom animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "I like building end-to-end ML projects that are not just
-                accurate, but usable: fast, explainable, and easy to iterate on."
+                "I enjoy building products that are technically strong, secure by design, and genuinely useful for real users."
               </p>
             </div>
           </div>
