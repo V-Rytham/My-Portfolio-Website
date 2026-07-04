@@ -33,6 +33,13 @@ const skills = [
   "Tableau",
 ];
 
+const greenDots = Array.from({ length: 30 }, (_, idx) => ({
+  left: `${(idx * 37) % 100}%`,
+  top: `${(idx * 53 + 11) % 100}%`,
+  duration: `${15 + ((idx * 7) % 20)}s`,
+  delay: `${(idx * 0.37).toFixed(2)}s`,
+}));
+
 export const Hero = () => {
   const handleDownloadCv = () => {
     // Download static file from /public without changing UI structure.
@@ -58,17 +65,16 @@ export const Hero = () => {
 
       {/* Green Dots */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        {[...Array(30)].map((_, i) => (
+        {greenDots.map((dot, idx) => (
           <div
+            key={idx}
             className="absolute w-1.5 h-1.5 rounded-full opacity-60"
             style={{
               backgroundColor: "#20B2A6",
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animation: `slow-drift ${
-                15 + Math.random() * 20
-              }s ease-in-out infinite`,
-              animationDelay: `${Math.random() * 5}s`,
+              left: dot.left,
+              top: dot.top,
+              animation: `slow-drift ${dot.duration} ease-in-out infinite`,
+              animationDelay: dot.delay,
             }}
           />
         ))}
@@ -89,19 +95,19 @@ export const Hero = () => {
             {/* Headline */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight reveal reveal-up animation-delay-100">
-                Turning <span className="text-primary glow-text">data</span>
+                Building <span className="text-primary glow-text">scalable</span>
                 <br />
-                into insights with
+                software powered
                 <br />
                 <span className="font-serif italic font-normal text-white">
-                  precision.
+                  by AI.
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg reveal reveal-up animation-delay-200">
                 Hi, I'm Rytham Maalpani - a B.Tech CSE student building
-                full-stack applications and machine learning pipelines. I enjoy
-                shipping practical projects with clean APIs, strong fundamentals,
-                and thoughtful UX.
+                scalable full-stack applications, AI-powered systems, RAG
+                pipelines, backend infrastructure, and production-ready
+                software with clean APIs and thoughtful UX.
               </p>
             </div>
 

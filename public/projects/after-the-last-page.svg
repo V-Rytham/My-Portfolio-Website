@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 313" width="470" height="313">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#efe1c4"/><stop offset="1" stop-color="#b9874d"/></linearGradient><filter id="b"><feGaussianBlur stdDeviation="10"/></filter></defs>
+  <rect width="470" height="313" fill="url(#g)"/>
+  <circle cx="40" cy="280" r="50" fill="#638d39" opacity=".35" filter="url(#b)"/>
+  <rect x="320" y="120" width="70" height="88" rx="8" fill="#d5b174" opacity=".8"/><path d="M390 145c32-4 32 42 0 38" fill="none" stroke="#d5b174" stroke-width="10"/>
+  <rect x="260" y="222" width="150" height="14" fill="#6d4a2f"/><rect x="250" y="205" width="160" height="16" fill="#8b6238"/><rect x="275" y="187" width="140" height="16" fill="#75512f"/>
+  <text x="58" y="132" font-family="Georgia,serif" font-size="86" fill="#3b2317">ALP</text>
+  <text x="78" y="161" font-family="Georgia,serif" font-size="23" fill="#3b2317">After The Last Page</text>
+  <text x="110" y="198" font-family="Georgia,serif" font-size="14" font-style="italic" fill="#725536">Where stories don't end,</text>
+  <text x="123" y="216" font-family="Georgia,serif" font-size="14" font-style="italic" fill="#725536">conversations begin.</text>
+  <path d="M188 32q20 8 36 0M235 50q12 7 23 0M202 70q10 6 20 0" stroke="#7b5a35" fill="none" stroke-width="2"/>
+  <g fill="#6e5136" font-family="Arial" font-size="10"><text x="72" y="270">Meaningful</text><text x="78" y="284">Discussions</text><text x="165" y="270">Deeper</text><text x="158" y="284">Connections</text><text x="255" y="270">For Readers,</text><text x="260" y="284">By Readers</text></g>
+</svg>
