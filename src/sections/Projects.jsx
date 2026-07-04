@@ -3,49 +3,22 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
   {
-    title: "After The Last Page (ALP)",
-    description:
-      "A full-stack book discussion platform with structured threads around specific books, built with a scalable architecture.",
-    tags: ["Node.js", "React", "Express", "MongoDB"],
-    link: "https://github.com/V-Rytham/After-The-Last-Page",
-    github: "https://github.com/V-Rytham/After-The-Last-Page",
-    image: "/projects/project1.png",
-  },
-  {
-    title: "Customer Churn Prediction & Retention Intelligence",
-    description:
-      "An end-to-end churn prediction pipeline with an XGBoost model (85% accuracy) and a Tableau dashboard for retention insights.",
-    tags: ["Python", "XGBoost", "SQL", "Tableau"],
-    link: "https://github.com/V-Rytham",
-    github: "https://github.com/V-Rytham",
-    image: "/projects/project2.png",
-  },
-  {
-    title: "Deep Learning Font Classification System",
-    description:
-      "A CNN-based image classifier to identify five font families using preprocessing, augmentation, and training optimizations.",
-    tags: ["Python", "TensorFlow", "CNN", "Augmentation"],
-    link: "https://github.com/V-Rytham",
-    github: "https://github.com/V-Rytham",
-    image: "/projects/project3.png",
-  },
-  {
     title: "After The Last Page",
     description:
       "Scalable book aggregation platform with RAG-based chatbot, modular backend services, and secure API architecture.",
     tags: ["React.js", "Node.js", "Express", "MongoDB", "JWT", "RAG"],
     link: "https://alp-web.onrender.com/",
     github: "https://github.com/V-Rytham",
-    image: "/projects/project1.png",
+    image: "/projects/after-the-last-page.svg",
   },
   {
-    title: "AI Powered E-Commerce Platform",
+    title: "Memory Palace",
     description:
-      "Full-stack e-commerce application with JWT auth, Google login, admin controls, and Razorpay/COD payment workflows.",
-    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Razorpay"],
-    link: "https://ecom-ai-vork.onrender.com",
+      "Context-aware memory retrieval platform with natural conversations, semantic vector search, contextual ranking, and API gateway orchestration.",
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "Redis", "RAG"],
+    link: "https://github.com/V-Rytham",
     github: "https://github.com/V-Rytham",
-    image: "/projects/project4.png",
+    image: "/projects/memory-palace.svg",
   },
   {
     title: "Mini Git - Custom Version Control System",
@@ -54,7 +27,16 @@ const projects = [
     tags: ["React", "Node.js", "Express", "MongoDB", "AWS S3", "JWT"],
     link: "https://git-d3gk.onrender.com/",
     github: "https://github.com/V-Rytham",
-    image: "/projects/project3.png",
+    image: "/projects/mini-git.svg",
+  },
+  {
+    title: "AI Powered E-Commerce Platform",
+    description:
+      "Full-stack e-commerce application with JWT auth, Google login, admin controls, and Razorpay/COD payment workflows.",
+    tags: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT", "Razorpay"],
+    link: "https://ecom-ai-vork.onrender.com",
+    github: "https://github.com/V-Rytham",
+    image: "/projects/ecommerce-platform.svg",
   },
   {
     title: "Deterministic Question Generator",
@@ -63,7 +45,7 @@ const projects = [
     tags: ["FastAPI", "MongoDB", "spaCy", "scikit-learn"],
     link: "https://deterministic-question-engine-1.onrender.com/",
     github: "https://github.com/V-Rytham",
-    image: "/projects/project2.png",
+    image: "/projects/deterministic-question-generator.svg",
   },
 ];
 
@@ -105,7 +87,12 @@ export const Projects = () => {
                 window.open(url, "_blank", "noopener,noreferrer");
               }}
             >
-              <img src={project.image} alt={project.title} className="w-full h-52 object-cover border-b border-border/50" />
+              <img
+                src={project.image}
+                alt={project.title}
+                loading="lazy"
+                className="w-full h-52 object-cover border-b border-border/50"
+              />
               <div className="p-6 space-y-4">
                 <div className="flex items-start justify-between gap-3">
                   <h3 className="text-xl font-semibold group-hover:text-primary transition-colors">{project.title}</h3>

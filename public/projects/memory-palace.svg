@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1897 948" width="1897" height="948">
+  <rect width="1897" height="948" fill="#12100d"/><radialGradient id="r" cx="70%" cy="54%" r="45%"><stop stop-color="#2a231a"/><stop offset="1" stop-color="#12100d"/></radialGradient><rect width="1897" height="948" fill="url(#r)"/>
+  <g stroke="#8b6d44" stroke-width="3"><line x1="1325" y1="618" x2="985" y2="318"/><line x1="1325" y1="618" x2="1298" y2="210"/><line x1="1325" y1="618" x2="1570" y2="277"/><line x1="1325" y1="618" x2="1666" y2="685"/><line x1="1325" y1="618" x2="1392" y2="925"/><line x1="1325" y1="618" x2="1052" y2="795"/></g>
+  <g fill="#dfc394"><circle cx="1325" cy="618" r="64" fill="#b78a55"/><circle cx="985" cy="318" r="28"/><circle cx="1298" cy="210" r="22"/><circle cx="1570" cy="277" r="22"/><circle cx="1666" cy="685" r="22"/><circle cx="1392" cy="925" r="22"/><circle cx="1052" cy="795" r="22"/></g>
+  <text x="98" y="66" fill="#f5eee5" font-family="Georgia,serif" font-size="31" font-weight="700">Memory Palace</text><text x="1698" y="64" fill="#bd8e55" font-family="Georgia,serif" font-size="18" letter-spacing="18">ENTER</text>
+  <text x="115" y="288" fill="#bd8e55" font-family="Arial" font-size="20">✧  Living memory ecosystem</text>
+  <text x="115" y="430" fill="#f5eee5" font-family="Georgia,serif" font-size="110">Grow</text><text x="115" y="545" fill="#f5eee5" font-family="Georgia,serif" font-size="110">Your</text><text x="115" y="660" fill="#bd8e55" font-family="Georgia,serif" font-style="italic" font-size="110">Second Mind</text>
+  <text x="115" y="756" fill="#cfc3b5" font-family="Arial" font-size="24">Your memories are not stored. They evolve into a living network</text><text x="115" y="794" fill="#cfc3b5" font-family="Arial" font-size="24">where ideas, people, experiences and lessons naturally connect.</text>
+  <text x="115" y="904" fill="#f5eee5" font-family="Georgia,serif" font-size="34" font-weight="700">Start Growing →</text>
+  <g fill="#f5eee5" font-family="Georgia,serif" font-size="30" font-weight="700"><text x="1027" y="328">Childhood</text><text x="1338" y="220">Projects</text><text x="1610" y="280">Ideas</text><text x="1705" y="697">People</text><text x="1433" y="940">Learning</text><text x="1095" y="805">Dreams</text></g>
+</svg>
